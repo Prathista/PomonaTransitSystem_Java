@@ -1,23 +1,22 @@
 # PomonaTransitSystem_Java
 Pomona Transit System using mySQL and JDBC. 
 
-Lab Instructions:
 
-Use the following tables to design and implement the Pomona Transit System using any database product and JDBC.
+Used the following tables to design and implement the Pomona Transit System using SQL and JDBC.
 
-Trip ( TripNumber, StartLocationName, DestinationName)
+  **Trip** ( TripNumber, StartLocationName, DestinationName)
 
-TripOffering ( TripNumber, Date, ScheduledStartTime, SecheduledArrivalTime, DriverName, BusID)
+  **TripOffering** ( TripNumber, Date, ScheduledStartTime, SecheduledArrivalTime, DriverName, BusID)
 
-Bus ( BusID, Model,Year)
+  **Bus** ( BusID, Model,Year)
 
-Driver( DriverName, DriverTelephoneNumber)
+  **Driver**( DriverName, DriverTelephoneNumber)
 
-Stop (StopNumber, StopAddress)
+  **Stop** (StopNumber, StopAddress)
 
-ActualTripStopInfo (TripNumber, Date, ScheduledStartTime, StopNumber, SecheduledArrivalTime, ActualStartTime, ActualArrivalTime, NumberOfPassengerIn, NumberOf PassengerOut)
+  **ActualTripStopInfo** (TripNumber, Date, ScheduledStartTime, StopNumber, SecheduledArrivalTime, ActualStartTime, ActualArrivalTime, NumberOfPassengerIn, NumberOf PassengerOut)
 
-TripStopInfo ( TripNumber, StopNumber, SequenceNumber, DrivingTime)
+  **TripStopInfo** ( TripNumber, StopNumber, SequenceNumber, DrivingTime)
 
 The system should deal with at least the following transactions:
 
